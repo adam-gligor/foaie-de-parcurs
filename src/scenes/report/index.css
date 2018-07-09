@@ -1,0 +1,88 @@
+
+/* missing  */
+
+
+
+/* print */
+
+/* body {
+    background: #fff;
+    color: #000;
+    font-size: 8pt;
+    font-family: Calibri;
+}
+
+
+.sheet {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+}
+
+.sheet header {
+    margin: 0;
+}
+
+@page {
+    margin: 5mm 15mm 5mm 15mm;
+} */
+
+.sheet {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background: #FFF;
+
+    text-align: center;
+    background: #fff;
+    font-size: 9pt;
+}
+
+.sheet header {
+    background: #222;
+    text-align: center;
+    color: #fff;
+    font: bold 15pt Helvetica, Sans-Serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding: 10px 0px;
+}
+
+
+.strong, .strong td {
+    font-size: 110%;
+}
+
+/* th{
+    margin-bottom
+} */
+
+.sheet header {
+    color: #222;
+    background-color: #fff;
+    margin-bottom: 20px;
+}
+
+.sheet table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+
+
+.sheet td, .sheet th {
+    text-align: left;
+}
+
+.sheet th {
+    background: #eee;
+}
+
+.sheet table.itinerary {
+    width: 100%;
+}
+
+    .sheet table.itinerary td, .sheet table.itinerary th {
+        border: 1px solid black;
+        text-align: center;
+    }

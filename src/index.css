@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Customize container */
+
+.container-narrow {
+  max-width: 46rem;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.header {
+  border-bottom: .05rem solid #e5e5e5;
+}
