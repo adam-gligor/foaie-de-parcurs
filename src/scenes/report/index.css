@@ -1,32 +1,4 @@
 
-/* missing  */
-
-
-
-/* print */
-
-/* body {
-    background: #fff;
-    color: #000;
-    font-size: 8pt;
-    font-family: Calibri;
-}
-
-
-.sheet {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-}
-
-.sheet header {
-    margin: 0;
-}
-
-@page {
-    margin: 5mm 15mm 5mm 15mm;
-} */
-
 .sheet {
     margin-left: auto;
     margin-right: auto;
@@ -82,7 +54,33 @@
     width: 100%;
 }
 
-    .sheet table.itinerary td, .sheet table.itinerary th {
-        border: 1px solid black;
-        text-align: center;
+.sheet table.itinerary td, .sheet table.itinerary th {
+    border: 1px solid black;
+    text-align: center;
+}
+
+
+/* print */
+@media print
+{
+    body {
+        background: #fff;
+        color: #000;
+        font-size: 8pt;
+        font-family: Calibri;
     }
+
+    .sheet {
+        width: 100%;
+        max-width: 100%;
+        margin: 0;
+    }
+
+    .sheet header {
+        margin: 0;
+    }
+
+    @page {
+        margin: 5mm 15mm 5mm 15mm;
+    } 
+}
