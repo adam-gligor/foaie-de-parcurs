@@ -265,8 +265,6 @@ export default class Index extends React.Component<RouteComponentProps<{}>, ISta
       .then((value: IReportInput) => {
 
         // includes cast to schema types 
-        global.console.log(value);
-
         dataStore.save(value);
         this.props.history.push('/report');
       })
