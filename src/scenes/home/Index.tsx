@@ -9,7 +9,7 @@ import IReportInput from '../../report-generator/IReportInput';
 // use typeError to set a message for typecast errors
 const ValidationSchema = Yup.object().shape({
   companyName: Yup.string().required(),
-  daysOff: Yup.string().required().matches(/^[0-9.,]+$/),
+  daysOff: Yup.string().matches(/^[0-9.,]+$/, { excludeEmptyString: true }),
   driverName: Yup.string().required(),
   homeAddress: Yup.string().required(),
   month: Yup.number().required().integer().positive(),
