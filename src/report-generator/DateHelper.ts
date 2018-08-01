@@ -54,6 +54,6 @@ export default class DateTimeHelper {
     }
 
     private isOffDay(date: Date) {
-        return this.offDays.indexOf(date.getDay()) > -1;
+        return this.offDays.indexOf(date.getDate()) > -1;
     }
 }
