@@ -45,8 +45,7 @@ export default class Index extends React.Component<{}, IState> {
                         <tr>
                             <td>Luna:</td>
                             <td >
-                                {/* @Model.Year-@Model.Month.ToString("00") */}
-                                {report.month}
+                                {report.year}-{report.month}
                             </td>
                         </tr>
                     </tbody>

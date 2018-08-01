@@ -6,7 +6,7 @@ export default class DateTimeHelper {
 
     constructor(year: number, month: number, offDays: number[]) {
 
-        this.daysInMonth = this.getDaysInMonth(month, year);
+        this.daysInMonth = this.getDaysInMonth(month -1, year); // because months are 0-11
         this.offDays = offDays;
     }
 
