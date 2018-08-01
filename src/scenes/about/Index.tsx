@@ -12,7 +12,7 @@ class Index extends React.Component {
               Despre
             </h4>
             <p>
-              Generator foaia de parcurs pentru scenariul in care masina personala este folosita pentru deplasare zilnica intre casa si servici.
+              Generator foaie de parcurs pentru scenariul in care masina personala este folosita pentru deplasare zilnica casa-servici.
             </p>
             Programul face urmatoarele presupuneri
             <br />
